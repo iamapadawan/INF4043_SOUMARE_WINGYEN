@@ -1,15 +1,18 @@
+package fr.esiea.unique.binome.name.LetterGameEngine;
+
+import java.util.ArrayList;
 
 public class SharedBag {
 
-	private ArrayList<char>() letters;
-	
-	public ShareBag(){
-		this.letters = new ArrayList<char>();
-	}
-	
-	public boolean addLetter(char letter){
-		
-		letters.add(letter);
-		return true;
-	}
+    private ArrayList<Character> lettersList = new ArrayList<Character>();
+
+    public SharedBag() {
+        this.lettersList = new ArrayList<Character>();
+    }
+
+    public boolean addLetter(Character pletter) {
+
+        lettersList.add(pletter);
+        return true;
+    }
 }

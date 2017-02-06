@@ -5,4 +5,7 @@ pattern named DDD(Domain Driven Design)
 Project Dependencies:
 ###################################
     |--Letter Game Domain
-    |--Letter Jpa Repository
+Convention:
+    parametre et attribute: pName
+    member: mName
+    Local variable: lName
