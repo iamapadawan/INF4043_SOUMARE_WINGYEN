@@ -2,6 +2,8 @@ package fr.esiea.unique.binome.name.dictionary;
 
 import org.junit.Before;
 
+import com.sun.xml.internal.ws.policy.AssertionSet;
+
 import static junit.framework.Assert.assertTrue;
 import static org.junit.Assert.assertFalse;
 
@@ -17,8 +19,10 @@ public class DictionaryTest {
         //TODO
     }
 
+    @Test
     public void testIsWord() {
-        assertTrue(dictionary.isWord("maman"));
+        Assertions.assertThat(dictionary.isWord("maman"));
+//        assertTrue(dictionary.isWord("maman"));
         assertFalse(dictionary.isWord("namam"));
     }
 }

@@ -11,7 +11,6 @@ public class SharedBag {
     }
 
     public boolean addLetter(Character pletter) {
-
         lettersList.add(pletter);
         return true;
     }
