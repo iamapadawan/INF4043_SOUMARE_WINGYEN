@@ -1,14 +1,10 @@
-package LetterGameEngine;
+package fr.esiea.unique.binome.name.LetterGameEngine;
 
-import java.util.ArrayList;
-import java.util.Scanner;
+public class PlayerHuman extends Player {
 
-public class PlayerHuman extends Player{
-	
-	public PlayerHuman(String id, String name) {
-		super(id, name);
+    public PlayerHuman(String id, String name) {
+        super(id, name);
 
-	}
-	
-	
+    }
+
 }
